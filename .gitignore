@@ -1,0 +1,8 @@
+Burocracia/
+ChoiceForVoice/
+Log/
+matlab/
+Other/
+resources/
+dev/outputs/**/*.csv
+dev/outputs/**/*.arff

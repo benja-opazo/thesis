@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: elsarticle-num-names.bst
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Database file #1: bibliography.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty booktitle in tandem2008
+Warning--empty pages in tandem2008
+Warning--empty journal in tandem2011
+Warning--empty pages in vocaine
+Warning--empty pages in morise2009dio
+Warning--empty pages in Morise_2017harvest
+Warning--empty pages in Degottex_2011
+Warning--empty pages in Murphy_2019
+Warning--empty pages in Degottex2014_covarep
+Warning--empty booktitle in Kane_identifyingregions
+You've used 32 entries,
+            2918 wiz_defined-function locations,
+            865 strings with 12169 characters,
+and the built_in function-call counts, 20547 in all, are:
+= -- 1551
+> -- 798
+< -- 16
++ -- 313
+- -- 267
+* -- 2399
+:= -- 2944
+add.period$ -- 60
+call.type$ -- 32
+change.case$ -- 249
+chr.to.int$ -- 32
+cite$ -- 42
+duplicate$ -- 1540
+empty$ -- 1529
+format.name$ -- 353
+if$ -- 3810
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 301
+newline$ -- 168
+num.names$ -- 128
+pop$ -- 546
+preamble$ -- 1
+purify$ -- 249
+quote$ -- 0
+skip$ -- 375
+stack$ -- 0
+substring$ -- 875
+swap$ -- 1082
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 288
+warning$ -- 10
+while$ -- 135
+width$ -- 0
+write$ -- 451
+(There were 10 warnings)

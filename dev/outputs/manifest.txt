@@ -1,0 +1,186 @@
+rd_[cpp ps pesq]_papa_modal.csv & rd_[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 0.35;
+    - param_leap = 0.05;
+    - param_max = 4;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+
+
+
+rd_[cpp ps pesq]_fem_normal_aa_modal.csv & rd_[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 0.35;
+    - param_leap = 0.05;
+    - param_max = 4;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+
+f0_multiplier_[cpp ps pesq]_papa_modal.csv & f0_multiplier_[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 0.5;
+    - param_leap = 0.05;
+    - param_max = 1.5;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+
+
+
+f0_multiplier_[cpp ps pesq]_fem_normal_aa_modal.csv & f0_multiplier_[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 0.5 -> peter parte de 0.8
+    - param_leap = 0.05;
+    - param_max = 1.5;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+
+
+rpp_k_[cpp ps pesq]_papa_modal.csv & rpp_k_[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 0;
+    - param_leap = 0.01;
+    - param_max = 3;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+
+rpp_k_[cpp ps pesq]_fem_normal_aa_modal.csv & rpp_k_[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 0;
+    - param_leap = 0.01;
+    - param_max = 3;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+
+
+jitter_amplitude[cpp ps pesq]_papa_modal.csv & jitter_amplitude[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 1;
+    - param_leap = 0.5;
+    - param_max = 25;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+    - vq_options.jitter_frequency = fs/16; % OJO!
+
+jitter_amplitude[cpp ps pesq]_fem_normal_aa_modal.csv & jitter_amplitude[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 1;
+    - param_leap = 0.5;
+    - param_max = 25;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+    - vq_options.jitter_amplitude = 13;
+    - vq_options.jitter_frequency = fs/8; 
+
+
+jitter_frequency[cpp ps pesq]_papa_modal.csv & jitter_frequency[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = fs/64;
+    - param_leap = fs/64;
+    - param_max = fs/2;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+    - vq_options.jitter_frequency = fs/16; % OJO!
+
+jitter_frequency[cpp ps pesq]_fem_normal_aa_modal.csv & jitter_frequency[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = fs/64;
+    - param_leap = fs/64;
+    - param_max = fs/2;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+    - vq_options.jitter_amplitude = 13;
+    - vq_options.jitter_frequency = fs/8; 
+
+shimmer_amplitude[cpp ps pesq]_papa_modal.csv & shimmer_amplitude[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 1;
+    - param_leap = 0.5;
+    - param_max = 25;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+    - vq_options.shimmer_amplitude = 11;
+    - vq_options.shimmer_frequency = 50; % valores papa
+
+shimmer_amplitude[cpp ps pesq]_fem_normal_aa_modal.csv & shimmer_amplitude[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 1;
+    - param_leap = 0.5;
+    - param_max = 25;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+    - vq_options.shimmer_amplitude = 13
+    - vq_options.shimmer_frequency = 50;
+
+shimmer_frequency[cpp ps pesq]_papa_modal.csv & shimmer_frequency[hnr jitter_and_shimmer]_papa_modal.arff
+    - param_min = 1;
+    - param_leap = 1;
+    - param_max = 100;
+    - vq_options.rd_param = 0.35;
+    - vq_options.rpp_multiplier_te = 1
+    - vq_options.rpp_multiplier_tp = 1
+    - vq_options.rpp_multiplier_ta = 1
+    - vq_options.rpp_k = 1
+    - vq_options.spectrum_filtering_exponential = 6
+    - vq_options.spectrum_filtering_samples = 55
+    - vq_options.shimmer_amplitude = 11;
+    - vq_options.shimmer_frequency = 50; % valores papa
+
+shimmer_frequency[cpp ps pesq]_fem_normal_aa_modal.csv & shimmer_frequency[hnr jitter_and_shimmer]_fem_normal_aa_modal.arff
+    - param_min = 1;
+    - param_leap = 1;
+    - param_max = 100;
+    - vq_options.rd_param = 0.35;
+    - vq_options.spectrum_filtering_exponential = 12
+    - vq_options.spectrum_filtering_samples = 80
+    - vq_options.rpp_multiplier_te = 0.6
+    - vq_options.rpp_multiplier_tp = 1.1
+    - vq_options.rpp_multiplier_ta = 0
+    - vq_options.rpp_k = 2.4
+    - vq_options.shimmer_amplitude = 13
+    - vq_options.shimmer_frequency = 50;

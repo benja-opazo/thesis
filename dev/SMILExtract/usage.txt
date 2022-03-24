@@ -1,0 +1,7 @@
+Jitter and Shimmer
+
+ ./SMILExtract.exe -C config/is09-13/IS10_paraling.conf -I papa_short_mono.wav -O output.arff
+
+HNR
+
+ ./SMILExtract.exe -C config/emobase/emobase.conf -I papa_short_mono.wav -O output.arff

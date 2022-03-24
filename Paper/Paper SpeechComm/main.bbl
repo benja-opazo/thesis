@@ -1,0 +1,290 @@
+\begin{thebibliography}{32}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Elman(1981)}]{Elman1981}
+\bibinfo{author}{J.~L. Elman},
+\newblock \bibinfo{title}{Effects of frequency-shifted feedback on the pitch of
+  vocal productions},
+\newblock \bibinfo{journal}{The Journal of the Acoustical Society of America}
+  \bibinfo{volume}{70} (\bibinfo{year}{1981}) \bibinfo{pages}{45--50}.
+  \DOIprefix\doi{10.1121/1.386580}.
+%Type = Article
+\bibitem[{Chesters et~al.(2015)Chesters, Baghai-Ravary, and
+  Möttönen}]{Chesters2015}
+\bibinfo{author}{J.~Chesters}, \bibinfo{author}{L.~Baghai-Ravary},
+  \bibinfo{author}{R.~Möttönen},
+\newblock \bibinfo{title}{The effects of delayed auditory and visual feedback
+  on speech production},
+\newblock \bibinfo{journal}{The Journal of the Acoustical Society of America}
+  \bibinfo{volume}{137} (\bibinfo{year}{2015}) \bibinfo{pages}{873--883}.
+  \DOIprefix\doi{10.1121/1.4906266}.
+%Type = Article
+\bibitem[{Tourville et~al.(2008)Tourville, Reilly, and
+  Guenther}]{Tourville2008}
+\bibinfo{author}{J.~A. Tourville}, \bibinfo{author}{K.~J. Reilly},
+  \bibinfo{author}{F.~H. Guenther},
+\newblock \bibinfo{title}{Neural mechanisms underlying auditory feedback
+  control of speech},
+\newblock \bibinfo{journal}{{NeuroImage}} \bibinfo{volume}{39}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{1429--1443}.
+  \DOIprefix\doi{10.1016/j.neuroimage.2007.09.054}.
+%Type = Article
+\bibitem[{Abur et~al.(2021)Abur, Subaciute, Kapsner-Smith, Segina, Tracy,
+  Noordzij, and Stepp}]{Abur2021}
+\bibinfo{author}{D.~Abur}, \bibinfo{author}{A.~Subaciute},
+  \bibinfo{author}{M.~Kapsner-Smith}, \bibinfo{author}{R.~K. Segina},
+  \bibinfo{author}{L.~F. Tracy}, \bibinfo{author}{J.~P. Noordzij},
+  \bibinfo{author}{C.~E. Stepp},
+\newblock \bibinfo{title}{Impaired auditory discrimination and auditory-motor
+  integration in hyperfunctional voice disorders},
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{11}
+  (\bibinfo{year}{2021}). \DOIprefix\doi{10.1038/s41598-021-92250-8}.
+%Type = Article
+\bibitem[{Abur and Stepp(2020)}]{Abur2020}
+\bibinfo{author}{D.~Abur}, \bibinfo{author}{C.~E. Stepp},
+\newblock \bibinfo{title}{Acuity to changes in self-generated vocal pitch in
+  parkinson{\textquotesingle}s disease},
+\newblock \bibinfo{journal}{Journal of Speech, Language, and Hearing Research}
+  \bibinfo{volume}{63} (\bibinfo{year}{2020}) \bibinfo{pages}{3208--3214}.
+  \DOIprefix\doi{10.1044/2020\_jslhr-20-00003}.
+%Type = Article
+\bibitem[{Galindo et~al.(2017)Galindo, Peterson, Erath, Castro, Hillman, and
+  Za{\~{n}}artu}]{Galindo_2017}
+\bibinfo{author}{G.~E. Galindo}, \bibinfo{author}{S.~D. Peterson},
+  \bibinfo{author}{B.~D. Erath}, \bibinfo{author}{C.~Castro},
+  \bibinfo{author}{R.~E. Hillman}, \bibinfo{author}{M.~Za{\~{n}}artu},
+\newblock \bibinfo{title}{Modeling the pathophysiology of phonotraumatic vocal
+  hyperfunction with a triangular glottal model of the vocal folds},
+\newblock \bibinfo{journal}{Journal of Speech, Language, and Hearing Research}
+  \bibinfo{volume}{60} (\bibinfo{year}{2017}) \bibinfo{pages}{2452--2471}.
+  \DOIprefix\doi{10.1044/2017\_jslhr-s-16-0412}.
+%Type = Article
+\bibitem[{Kawahara et~al.(1999)Kawahara, Masuda-Katsuse, and
+  de~Cheveign{\'{e}}}]{Kawahara1999}
+\bibinfo{author}{H.~Kawahara}, \bibinfo{author}{I.~Masuda-Katsuse},
+  \bibinfo{author}{A.~de~Cheveign{\'{e}}},
+\newblock \bibinfo{title}{Restructuring speech representations using a
+  pitch-adaptive time{\textendash}frequency smoothing and an
+  instantaneous-frequency-based f0 extraction: Possible role of a repetitive
+  structure in sounds},
+\newblock \bibinfo{journal}{Speech Communication} \bibinfo{volume}{27}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{187--207}.
+  \DOIprefix\doi{10.1016/s0167-6393(98)00085-5}.
+%Type = Inproceedings
+\bibitem[{Kawahara et~al.(2008)Kawahara, Morise, Takahashi, Nisimura, Irino,
+  and Banno}]{tandem2008}
+\bibinfo{author}{H.~Kawahara}, \bibinfo{author}{M.~Morise},
+  \bibinfo{author}{T.~Takahashi}, \bibinfo{author}{R.~Nisimura},
+  \bibinfo{author}{T.~Irino}, \bibinfo{author}{H.~Banno},
+\newblock \bibinfo{title}{Tandem-{STRAIGHT}: A temporally stable power spectral
+  representation for periodic signals and applications to interference-free
+  spectrum, f0, and aperiodicity estimation},
+\newblock \bibinfo{publisher}{{IEEE}}, \bibinfo{year}{2008}.
+  \DOIprefix\doi{10.1109/icassp.2008.4518514}.
+%Type = Article
+\bibitem[{KAWAHARA and MORISE(2011)}]{tandem2011}
+\bibinfo{author}{H.~KAWAHARA}, \bibinfo{author}{M.~MORISE},
+\newblock \bibinfo{title}{Technical foundations of {TANDEM}-{STRAIGHT}, a
+  speech analysis, modification and synthesis framework} \bibinfo{volume}{36}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{713--727}.
+  \DOIprefix\doi{10.1007/s12046-011-0043-3}.
+%Type = Article
+\bibitem[{MORISE et~al.(2016)MORISE, YOKOMORI, and OZAWA}]{Morise2016}
+\bibinfo{author}{M.~MORISE}, \bibinfo{author}{F.~YOKOMORI},
+  \bibinfo{author}{K.~OZAWA},
+\newblock \bibinfo{title}{{WORLD}: A vocoder-based high-quality speech
+  synthesis system for real-time applications},
+\newblock \bibinfo{journal}{IEICE Trans. Inf. \& Syst. Transactions on
+  Information and Systems} \bibinfo{volume}{E99.D} (\bibinfo{year}{2016})
+  \bibinfo{pages}{1877--1884}. \DOIprefix\doi{10.1587/transinf.2015edp7457}.
+%Type = Inproceedings
+\bibitem[{Agiomyrgiannakis(2015)}]{vocaine}
+\bibinfo{author}{Y.~Agiomyrgiannakis},
+\newblock \bibinfo{title}{Vocaine the vocoder and applications in speech
+  synthesis},
+\newblock in: \bibinfo{booktitle}{ICASSP}, \bibinfo{year}{2015}.
+%Type = Inproceedings
+\bibitem[{Morise et~al.(2009)Morise, Kawahara, and Katayose}]{morise2009dio}
+\bibinfo{author}{M.~Morise}, \bibinfo{author}{H.~Kawahara},
+  \bibinfo{author}{H.~Katayose},
+\newblock \bibinfo{title}{Fast and reliable f0 estimation method based on the
+  period extraction of vocal fold vibration of singing voice and speech},
+\newblock in: \bibinfo{booktitle}{Audio Engineering Society Conference: 35th
+  International Conference: Audio for Games}, \bibinfo{year}{2009}. \URLprefix
+  \url{http://www.aes.org/e-lib/browse.cfm?elib=15165}.
+%Type = Inproceedings
+\bibitem[{Morise(2017)}]{Morise_2017harvest}
+\bibinfo{author}{M.~Morise},
+\newblock \bibinfo{title}{Harvest: A high-performance fundamental frequency
+  estimator from speech signals},
+\newblock in: \bibinfo{booktitle}{Interspeech 2017},
+  \bibinfo{publisher}{{ISCA}}, \bibinfo{year}{2017}.
+  \DOIprefix\doi{10.21437/interspeech.2017-68}.
+%Type = Article
+\bibitem[{Morise(2015)}]{Morise2015cheaptrick}
+\bibinfo{author}{M.~Morise},
+\newblock \bibinfo{title}{{CheapTrick}, a spectral envelope estimator for
+  high-quality speech synthesis},
+\newblock \bibinfo{journal}{Speech Communication} \bibinfo{volume}{67}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1--7}.
+  \DOIprefix\doi{10.1016/j.specom.2014.09.003}.
+%Type = Article
+\bibitem[{Morise(2016)}]{Morise2016-2}
+\bibinfo{author}{M.~Morise},
+\newblock \bibinfo{title}{D4c, a band-aperiodicity estimator for high-quality
+  speech synthesis},
+\newblock \bibinfo{journal}{Speech Communication} \bibinfo{volume}{84}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{57--65}.
+  \DOIprefix\doi{10.1016/j.specom.2016.09.001}.
+%Type = Article
+\bibitem[{Veldhuis(1998)}]{Veldhuis_1998}
+\bibinfo{author}{R.~Veldhuis},
+\newblock \bibinfo{title}{A computationally efficient alternative for the
+  liljencrants{\textendash}fant model and its perceptual evaluation},
+\newblock \bibinfo{journal}{The Journal of the Acoustical Society of America}
+  \bibinfo{volume}{103} (\bibinfo{year}{1998}) \bibinfo{pages}{566--571}.
+  \DOIprefix\doi{10.1121/1.421103}.
+%Type = Article
+\bibitem[{Doval et~al.(2006)Doval, d'Alessandro, and
+  Henrich}]{doval2006spectrum}
+\bibinfo{author}{B.~Doval}, \bibinfo{author}{C.~d'Alessandro},
+  \bibinfo{author}{N.~Henrich},
+\newblock \bibinfo{title}{The spectrum of glottal flow models},
+\newblock \bibinfo{journal}{Acta acustica united with acustica}
+  \bibinfo{volume}{92} (\bibinfo{year}{2006}) \bibinfo{pages}{1026--1046}.
+%Type = Article
+\bibitem[{Fant(1995)}]{fant1995lf}
+\bibinfo{author}{G.~Fant},
+\newblock \bibinfo{title}{The lf-model revisited. transformations and frequency
+  domain analysis},
+\newblock \bibinfo{journal}{Speech Trans. Lab. Q. Rep., Royal Inst. of Tech.
+  Stockholm} \bibinfo{volume}{2} (\bibinfo{year}{1995}) \bibinfo{pages}{40}.
+%Type = Inproceedings
+\bibitem[{Degottex et~al.(2011)Degottex, Roebel, and Rodet}]{Degottex_2011}
+\bibinfo{author}{G.~Degottex}, \bibinfo{author}{A.~Roebel},
+  \bibinfo{author}{X.~Rodet},
+\newblock \bibinfo{title}{Pitch transposition and breathiness modification
+  using a glottal source model and its adapted vocal-tract filter},
+\newblock in: \bibinfo{booktitle}{2011 {IEEE} International Conference on
+  Acoustics, Speech and Signal Processing ({ICASSP})},
+  \bibinfo{publisher}{{IEEE}}, \bibinfo{year}{2011}.
+  \DOIprefix\doi{10.1109/icassp.2011.5947511}.
+%Type = Article
+\bibitem[{Degottex et~al.(2013)Degottex, Lanchantin, Roebel, and
+  Rodet}]{Degottex_2013}
+\bibinfo{author}{G.~Degottex}, \bibinfo{author}{P.~Lanchantin},
+  \bibinfo{author}{A.~Roebel}, \bibinfo{author}{X.~Rodet},
+\newblock \bibinfo{title}{Mixed source model and its adapted vocal tract filter
+  estimate for voice transformation and synthesis},
+\newblock \bibinfo{journal}{Speech Communication} \bibinfo{volume}{55}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{278--294}.
+  \DOIprefix\doi{10.1016/j.specom.2012.08.010}.
+%Type = Inproceedings
+\bibitem[{Murphy et~al.(2019)Murphy, Yanushevskaya, Chasaide, and
+  Gobl}]{Murphy_2019}
+\bibinfo{author}{A.~Murphy}, \bibinfo{author}{I.~Yanushevskaya},
+  \bibinfo{author}{A.~N. Chasaide}, \bibinfo{author}{C.~Gobl},
+\newblock \bibinfo{title}{The role of voice quality in the perception of
+  prominence in synthetic speech},
+\newblock in: \bibinfo{booktitle}{Interspeech 2019},
+  \bibinfo{publisher}{{ISCA}}, \bibinfo{year}{2019}.
+  \DOIprefix\doi{10.21437/interspeech.2019-2761}.
+%Type = Inproceedings
+\bibitem[{Degottex et~al.(2014)Degottex, Kane, Drugman, Raitio, and
+  Scherer}]{Degottex2014_covarep}
+\bibinfo{author}{G.~Degottex}, \bibinfo{author}{J.~Kane},
+  \bibinfo{author}{T.~Drugman}, \bibinfo{author}{T.~Raitio},
+  \bibinfo{author}{S.~Scherer},
+\newblock \bibinfo{title}{{COVAREP:} {A collaborative voice analysis repository
+  for speech technologies}},
+\newblock in: \bibinfo{booktitle}{2014 {IEEE} International Conference on
+  Acoustics, Speech and Signal Processing ({ICASSP})},
+  \bibinfo{publisher}{{IEEE}}, \bibinfo{year}{2014}.
+  \DOIprefix\doi{10.1109/icassp.2014.6853739}.
+%Type = Misc
+\bibitem[{Walden(2020)}]{pvqd}
+\bibinfo{author}{P.~R. Walden}, \bibinfo{title}{Perceptual voice qualities
+  database (pvqd)}, \bibinfo{year}{2020}.
+  \DOIprefix\doi{10.17632/9DZ247GNYB.1}.
+%Type = Article
+\bibitem[{Kempster et~al.(2009)Kempster, Gerratt, Abbott, Barkmeier-Kraemer,
+  and Hillman}]{Kempster2009}
+\bibinfo{author}{G.~B. Kempster}, \bibinfo{author}{B.~R. Gerratt},
+  \bibinfo{author}{K.~V. Abbott}, \bibinfo{author}{J.~Barkmeier-Kraemer},
+  \bibinfo{author}{R.~E. Hillman},
+\newblock \bibinfo{title}{Consensus auditory-perceptual evaluation of voice:
+  Development of a standardized clinical protocol},
+\newblock \bibinfo{journal}{American Journal of Speech-Language Pathology}
+  \bibinfo{volume}{18} (\bibinfo{year}{2009}) \bibinfo{pages}{124--132}.
+  \DOIprefix\doi{10.1044/1058-0360(2008/08-0017)}.
+%Type = Article
+\bibitem[{Hillenbrand et~al.(1994)Hillenbrand, Cleveland, and
+  Erickson}]{Hillenbrand1994}
+\bibinfo{author}{J.~Hillenbrand}, \bibinfo{author}{R.~A. Cleveland},
+  \bibinfo{author}{R.~L. Erickson},
+\newblock \bibinfo{title}{Acoustic correlates of breathy vocal quality},
+\newblock \bibinfo{journal}{Journal of Speech, Language, and Hearing Research}
+  \bibinfo{volume}{37} (\bibinfo{year}{1994}) \bibinfo{pages}{769--778}.
+  \DOIprefix\doi{10.1044/jshr.3704.769}.
+%Type = Article
+\bibitem[{Fraile and Godino-Llorente(2014)}]{Fraile2014}
+\bibinfo{author}{R.~Fraile}, \bibinfo{author}{J.~I. Godino-Llorente},
+\newblock \bibinfo{title}{Cepstral peak prominence: A comprehensive analysis},
+\newblock \bibinfo{journal}{Biomedical Signal Processing and Control}
+  \bibinfo{volume}{14} (\bibinfo{year}{2014}) \bibinfo{pages}{42--54}.
+  \DOIprefix\doi{10.1016/j.bspc.2014.07.001}.
+%Type = Misc
+\bibitem[{Na(2019)}]{opensmile}
+\bibinfo{author}{X.~Na}, \bibinfo{title}{opensmile}, \bibinfo{year}{2019}.
+  \URLprefix \url{https://github.com/naxingyu/opensmile}.
+%Type = Inproceedings
+\bibitem[{Kane and Gobl(2011)}]{Kane_identifyingregions}
+\bibinfo{author}{J.~Kane}, \bibinfo{author}{C.~Gobl},
+\newblock \bibinfo{title}{Identifying regions of non-modal phonation using
+  features of the wavelet transform.},
+\newblock \bibinfo{year}{2011}, pp. \bibinfo{pages}{177--180}.
+%Type = Article
+\bibitem[{Heman-Ackah et~al.(2002)Heman-Ackah, Michael, and
+  Goding}]{HemanAckah2002}
+\bibinfo{author}{Y.~D. Heman-Ackah}, \bibinfo{author}{D.~D. Michael},
+  \bibinfo{author}{G.~S. Goding},
+\newblock \bibinfo{title}{The relationship between cepstral peak prominence and
+  selected parameters of dysphonia},
+\newblock \bibinfo{journal}{Journal of Voice} \bibinfo{volume}{16}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{20--27}.
+  \DOIprefix\doi{10.1016/s0892-1997(02)00067-x}.
+%Type = Article
+\bibitem[{Kreiman et~al.(2014)Kreiman, Gerratt, Garellek, Samlan, and
+  Zhang}]{Kreiman2014}
+\bibinfo{author}{J.~Kreiman}, \bibinfo{author}{B.~R. Gerratt},
+  \bibinfo{author}{M.~Garellek}, \bibinfo{author}{R.~Samlan},
+  \bibinfo{author}{Z.~Zhang},
+\newblock \bibinfo{title}{Toward a unified theory of voice production and
+  perception},
+\newblock \bibinfo{journal}{Loquens} \bibinfo{volume}{1} (\bibinfo{year}{2014})
+  \bibinfo{pages}{e009}. \DOIprefix\doi{10.3989/loquens.2014.009}.
+%Type = Misc
+\bibitem[{Mozilla(2021)}]{mozillatts}
+\bibinfo{author}{Mozilla}, \bibinfo{title}{Tts: Text-to-speech for all},
+  \bibinfo{year}{2021}. \URLprefix \url{https://github.com/mozilla/TTS}.
+%Type = Article
+\bibitem[{Blaauw and Bonada(2017)}]{Blaauw2017}
+\bibinfo{author}{M.~Blaauw}, \bibinfo{author}{J.~Bonada},
+\newblock \bibinfo{title}{A neural parametric singing synthesizer modeling
+  timbre and expression from natural songs},
+\newblock \bibinfo{journal}{Applied Sciences} \bibinfo{volume}{7}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{1313}.
+  \DOIprefix\doi{10.3390/app7121313}.
+
+\end{thebibliography}
